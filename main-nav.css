@@ -1,0 +1,41 @@
+.main-nav{
+position: relative;
+display: flex;
+align-items: center;
+width: 100%;
+padding: 0 16px 0 0;
+&::before,
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 2px;
+    height: 32px;
+
+    background: #eaeaea;
+    border-radius: 1px;}
+    
+&::before {
+    content: none;
+    left: 0;
+  }
+
+  &::after {
+    right: 0;
+}
+}
+
+.header__main-nav{
+margin: 0 16px;    
+}
+
+.main-nav__logo{
+align-items: flex-start;    
+}
+
+.logo {
+border-radius: 25px
+}

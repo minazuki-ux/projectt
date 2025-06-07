@@ -1,0 +1,26 @@
+.layout {
+position: relative;
+display: grid;
+grid-template:
+"header aside" auto 
+"main main" 1fr;
+
+min-width: 320px;
+max-width: 1440px;
+margin: 0 auto;
+}
+.layout__header {
+    grid-area: header;
+    min-width: 0;
+  }
+
+.layout__services {
+    grid-area: aside;
+    min-width: 0;
+}   
+
+  .layout__page-content {
+    grid-area: main;
+    min-width: 0;
+  }  
+    
