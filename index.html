@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="btn.css">
     <link rel="stylesheet" href="main-nav.css">
     <link rel="stylesheet" href="services.css">
-    <link rel="stylesheet" href="services-menu.css">   
+    <link rel="stylesheet" href="services-menu.css"> 
+    <link rel="stylesheet" href="page-content.css"> 
+    <link rel="stylesheet" href="page-nav.css"> 
+    <link rel="stylesheet" href="link.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="expander.css">
 </head>
 
 <body class="style">
@@ -28,7 +33,7 @@
     </nav>  
  </div>   
 </header>
-<aside class="services layout_services">
+<aside class="services layout__services">
  <ul class="services-menu services__services-menu">
  <li class="services-menu__item">
             <button class="services-menu__btn btn btn--rounded" type="button" aria-label="Оставить заявку">
@@ -41,15 +46,15 @@
         </button>
  </li>
  </ul>   
-</aside>
-<main class="page-content layout_page-content">
+</aside>                
+<main class="page-content layout__page-content">
 <h1 class="page-content__title">
 Услуги и сервисы    
 </h1>
 <div class="page-nav page-content__page-nav">
 <ul class="page-nav__list">
-<li class="page-nav_item">Ремонтируемые устройства</li>
-<li class="page-nav_item">Дополнительные услуги</li>    
+<li class="page-nav__item"><a class="page-nav__link link link--bordered link--bordered--active">Ремонтируемые устройства</a></li>
+<li class="page-nav__item"><a class="page-nav__link link link--bordered">Дополнительные услуги</a></li>    
 </ul>    
 </div>
 <article class="about page-content__about">
@@ -59,7 +64,7 @@
    <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p> 
   </div>
  </div>
- <button class="expander_btn btn btn--expand">
+ <button class="expander__btn btn btn--expand">
     <img class="btn__icon" src="expander.svg" alt="Кнопка пролистать вниз">
     <span class="btn__text">Читать далее</span>
  </button>

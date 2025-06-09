@@ -1,0 +1,31 @@
+.page-content {
+background-color: #f8f8f8;
+border-top: 1px solid #d9fff5;    
+}
+
+.page-content__title {
+position: relative;
+max-width: 600px;
+margin: 0;
+padding: 24px 16px;
+font-size: 28px;
+font-weight: 700;
+line-height: 40px;
+
+&::before {
+content: "";
+
+position: absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+width: 4px;
+height: 40px;
+background: #41f6d7;
+border-radius: 0 4px 4px 0;
+}
+}
+
+.page-content__about {
+margin-bottom: 32px;    
+}

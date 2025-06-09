@@ -2,8 +2,9 @@
 position: relative;
 display: grid;
 grid-template:
-"header aside" auto 
-"main main" 1fr;
+"header aside" auto
+"main main" 1fr
+"footer footer" auto;
 
 min-width: 320px;
 max-width: 1440px;

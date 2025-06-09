@@ -3,8 +3,8 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("./fonts/TTLakes-Regular.woff2") format("woff2"),
-    url("./fonts/TTLakes-Regular.woff") format("woff");
+  src: url("./fonts/TTLakes-Regular.woff2") format("woff2");
+
 }
 
 @font-face {
@@ -12,8 +12,7 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/TTLakes-Medium.woff2") format("woff2"),
-    url("./fonts/TTLakes-Medium.woff") format("woff");
+  src: url("./fonts/TTLakes-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -21,6 +20,5 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/TTLakes-Bold.woff2") format("woff2"),
-    url("./fonts/TTLakes-Bold.woff") format("woff");
+  src: url("./fonts/TTLakes-Bold.woff2") format("woff2");
 }
