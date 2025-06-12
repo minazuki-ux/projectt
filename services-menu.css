@@ -1,16 +1,15 @@
 .services-menu {
 display: flex;
-flex-wrap: wrap;
+/*flex-wrap: wrap;*/
 align-items: center;
 height: 100%;
 margin: 0 0 0 auto;
 padding: 0;
 line-height: 0;
-list-style: none;    
+list-style: none;   
+
 }
 
 .services-menu__item{
- &:not(:last-child) {
-  margin-right: 16px;  
- }   
+ margin-right: 16px;     
 }

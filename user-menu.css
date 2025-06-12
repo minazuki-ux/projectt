@@ -1,0 +1,20 @@
+.user-menu {
+display: none;
+margin: 0 0 0 auto;
+padding: 0;
+
+line-height: 0;
+list-style: none;
+
+@media (min-width: 768px) {
+display: flex;
+flex-wrap: wrap;
+align-items: center;    
+}
+}
+
+.user-menu__item {
+&:not(:last-child){    
+margin-right: 16px; 
+}   
+}

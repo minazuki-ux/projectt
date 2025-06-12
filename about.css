@@ -1,6 +1,10 @@
 .about {
 display: flex;
-flex-direction: column;    
+flex-direction: column;
+@media (min-width: 768px) {
+flex-direction: row;
+padding: 0 24px;    
+}    
 }
 
 .about__text {
@@ -11,9 +15,29 @@ letter-spacing: 0.2px;
 }
 
 .about__text p {
-margin: 0 0 20px;    
+margin: 0 0 20px;   
 }
 
 .about__wrapper {
-padding: 0 16px;    
+padding: 0 16px;
+@media (min-width: 768px) {
+padding: 0;    
+}    
+}
+
+.about__text {
+@media (min-width: 768px) {
+max-height: 180px;
+margin-right: 48px;
+padding: 0;
+line-height: 20px;    
+}     
+}
+
+.about__img {
+@media (min-width: 768px) {
+width: 360px;
+height: 208px;
+border-radius: 4px;    
+} 
 }

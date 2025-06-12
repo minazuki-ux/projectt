@@ -6,6 +6,10 @@ overflow: hidden;
  @media (min-width: 320px) {
     padding: 0 24px;
  }
+
+ @media (min-width: 768px) {
+    margin-bottom: 32px;
+ }
 }
 
 .page-nav__list {

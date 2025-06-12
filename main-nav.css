@@ -26,6 +26,14 @@ padding: 0 16px 0 0;
   &::after {
     right: 0;
 }
+
+@media (min-width: 768px){
+padding: 0 20px;
+margin: 0 24px;
+&::before {
+content: "";  
+}
+}
 }
 
 .header__main-nav{
@@ -37,6 +45,9 @@ align-items: flex-start;
 }
 
 .logo {
-border-radius: 25px
+border-radius: 25px;
 }
 
+.logo__img {
+display: block;  
+}
