@@ -12,6 +12,10 @@ grid-template-rows: auto 1fr auto;
 min-width: 320px;
 max-width: 1440px;
 margin: 0 auto;
+
+@media (min-width: 1366px) {
+grid-template: "main main" 1fr;  
+}
 }
 .layout__header {
     grid-area: header;
@@ -21,6 +25,11 @@ margin: 0 auto;
 .layout__services {
     grid-area: aside;
     min-width: 0;
+    @media (min-width:1366px) {
+    position: absolute;
+    top: 40px;
+    right: 32px;  
+    }
 }   
 
   .layout__page-content {

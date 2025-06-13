@@ -11,3 +11,8 @@ padding: 0 0 0 24px;
 }
 }
 
+.header {
+@media (min-width: 1366px) {
+display: none;    
+}    
+}
